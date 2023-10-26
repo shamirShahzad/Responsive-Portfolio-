@@ -7,6 +7,7 @@
 * {
   font-family: "Montserrat", sans-serif;
   /* outline: 1px solid black; */
+  overflow-x: hidden;
 }
 .head {
   height: 100vh;
@@ -158,14 +159,17 @@
   margin-bottom: 2rem;
   width: 100%;
   border-radius: 12px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  padding: 10px;
 }
 .proj-img-flex {
   display: flex;
   justify-content: center;
 }
 .projects-link {
-  padding: 2rem;
+  padding: 0 0 0 2rem;
+  text-align: center;
+  overflow-x: visible;
 }
 .projects-btn {
   margin: 1rem 0px 1rem 2rem;
@@ -372,10 +376,10 @@
     margin-left: 0rem;
   }
   .projects-img {
+    width: 100%;
     margin-left: 50px;
   }
   .proj-img-flex {
-    display: inline;
   }
   .projects-btn {
     margin-left: 0px;
