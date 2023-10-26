@@ -159,7 +159,7 @@
   margin-bottom: 2rem;
   width: 100%;
   border-radius: 25px;
-  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 10px;
 }
 .proj-img-flex {
